@@ -58,7 +58,6 @@ exports.signin = async (req, res) => {
                 verified: existingUser.verified,
             },
             process.env.TOKEN_SECRET,
-            { expiresIn: '8h' }
         );
 
         return res
