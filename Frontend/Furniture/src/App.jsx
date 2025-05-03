@@ -14,6 +14,7 @@ import SignUp from './Components/SignUp/SignUp'
 import ForgetPassword from './Components/ForgetPassword/ForgetPassword'
 import GetCode from './Components/GetCode/GetCode'
 import ChangePassword from './Components/ChangePassword/ChangePassword'
+import Logout from './Components/Logout/Logout'
 
 
 
@@ -33,7 +34,9 @@ function App() {
       {path:"signUp",element:<SignUp/>},
       {path:"forgetpassword",element:<ForgetPassword/>},
       {path:"getcode",element:<GetCode/>},
-      {path:"changePassword",element:<ChangePassword/>}
+      {path:"changePassword",element:<ChangePassword/>},
+      {path:"logout",element:<Logout/>},
+   
     ]
   }])
  
